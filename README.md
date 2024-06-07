@@ -3,11 +3,11 @@ Module 7
 
 
 # Clone Repo:
-
+"""
 git clone url
-
+"""
 # Add .gitignore
-
+"""
 # Ignore project virtual environment in the .venv folder
 .venv/
 
@@ -16,10 +16,17 @@ git clone url
 
 # If the project uses Jupyter Notebooks include the following
 .ipynb_checkpoints/
+"""
 
 # Virtual Environment
-
+"""
 py -m venv .venv
 
 .venv\Scripts\activate
-
+"""
+# Insall packages
+"""
+py -m pip install jupyterlab pandas pyarrow matplotlib seaborn
+py -m pip install -r requirements.txt
+py -m pip freeze > requirements.txt
+"""
