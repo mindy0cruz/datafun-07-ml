@@ -31,3 +31,7 @@ py -m pip install -r requirements.txt
 
 py -m pip freeze > requirements.txt
     
+
+# Project Start
+
+install dependencies
